@@ -1,30 +1,32 @@
 package Delegation;
 
 public class ShipDelegation {
-    private  String name;
+    private String name;
+    private ShipControls shipControls = new ShipControls();
+    //dzialamy na obiekcie shipControls
 
-    public ShipDelegation(String name) {
+    ShipDelegation(String name) {
         this.name = name;
     }
-    private ShipControls shipControls = new ShipControls();
 
-    public void up(int v) {
+    //metody wywoluja metody od delegatow
+    void up(int v) {
         shipControls.up(v);
     }
 
-    public void down(int v) {
+    void down(int v) {
         shipControls.down(v);
     }
 
-    public void left(int v) {
+    void left(int v) {
         shipControls.left(v);
     }
 
-    public void right(int v) {
+    void right(int v) {
         shipControls.right(v);
     }
 
-    public void forward(int v) {
+    void forward(int v) {
         shipControls.forward(v);
     }
 }
