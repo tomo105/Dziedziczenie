@@ -1,4 +1,4 @@
-package abcd;
+package InheritanceABCD;
 
 public class Stem extends  Root {
     private A a = new A("llll");

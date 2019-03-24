@@ -1,7 +1,4 @@
-package abcd;
-
-import abcd.A;
-import abcd.B;
+package InheritanceABCD;
 
 public class C extends A {
     B b;

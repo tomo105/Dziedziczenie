@@ -1,6 +1,4 @@
-package abcd;
-
-import abcd.A;
+package InheritanceABCD;
 
 public class D extends A {
     private int var;

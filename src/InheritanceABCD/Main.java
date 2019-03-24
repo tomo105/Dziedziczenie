@@ -1,4 +1,4 @@
-package abcd;
+package InheritanceABCD;
 
 public class Main {
     public static void main(String[] args) {

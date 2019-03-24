@@ -1,4 +1,4 @@
-package abcd;
+package InheritanceABCD;
 
 public class B {
     private int b;

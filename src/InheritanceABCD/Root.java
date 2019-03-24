@@ -1,4 +1,4 @@
-package abcd;
+package InheritanceABCD;
 
 public class Root {
     private A a = new A("lalala");
