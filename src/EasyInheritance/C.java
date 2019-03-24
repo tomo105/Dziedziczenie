@@ -1,7 +1,10 @@
 package EasyInheritance;
 
 public class C extends A {
-    public C() {
-        B b = new B();
+    B b;
+    public C(String a,int value) {
+        super(a);
+        this.b = new B(value);
+
     }
 }

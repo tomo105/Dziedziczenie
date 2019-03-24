@@ -1,7 +1,10 @@
 package EasyInheritance;
 
 public class B {
-    public B() {
+    private int b;
+
+    public B(int b) {
+        this.b = b;
         System.out.println("B constructor");
     }
 }

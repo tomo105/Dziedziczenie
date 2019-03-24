@@ -1,7 +1,9 @@
 package EasyInheritance;
 
 public class A {
-    public A() {
+    private String a;
+    public A(String a) {
+        this.a = a;
         System.out.println("A constructor");
     }
 }
