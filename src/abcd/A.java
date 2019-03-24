@@ -1,4 +1,4 @@
-package EasyInheritance;
+package abcd;
 
 public class A {
     private String a;

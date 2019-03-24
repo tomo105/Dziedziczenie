@@ -1,16 +1,18 @@
-package EasyInheritance;
+package abcd;
+
+import abcd.A;
 
 public class D extends A {
     private int var;
 
     public D() {
         super( "Super");
-        System.out.println("constructor D");
+        System.out.println("D constructor");
     }
 
     public D(int var) {
         super("Superrr");
-        System.out.println("constructor D");
+        System.out.println("D constructor");
         this.var = var;
     }
 }

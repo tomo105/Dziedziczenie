@@ -1,4 +1,4 @@
-package EasyInheritance;
+package abcd;
 
 public class B {
     private int b;

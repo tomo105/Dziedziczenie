@@ -1,4 +1,7 @@
-package EasyInheritance;
+package abcd;
+
+import abcd.A;
+import abcd.B;
 
 public class C extends A {
     B b;
